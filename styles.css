@@ -115,6 +115,15 @@ body {
 	border-radius: .25rem;
 }
 
+.badge__list {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-1);
+}
+
 .badge--scale {
 	transition: scale .2s ease-in;
 }
@@ -188,15 +197,6 @@ body {
 
 .contacts__content:not(:last-child) {
 	margin-bottom: var(--space-1);
-}
-
-.hard-skills__list {
-	padding: 0;
-	margin: 0;
-	list-style-type: none;
-	display: flex;
-	flex-wrap: wrap;
-	gap: var(--space-1);
 }
 
 @media screen and (max-width: 576px) {
