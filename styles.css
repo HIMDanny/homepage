@@ -165,6 +165,11 @@ body {
 	margin-top: var(--space-4);
 }
 
+.contacts__content:not(:last-child) {
+	margin-bottom: var(--space-1);
+}
+
+
 @media screen and (max-width: 576px) {
 
 	.main-info,
