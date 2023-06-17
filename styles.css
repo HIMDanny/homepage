@@ -28,12 +28,6 @@ body {
 	--space-7: 1.875rem;
 }
 
-.container {
-	margin: 0 auto;
-	padding-inline: 3rem;
-	max-width: 900px;
-}
-
 .fh {
 	display: flex;
 	flex-direction: row;
@@ -77,6 +71,7 @@ body {
 .resume-inner {
 	border: 3px solid var(--border-color);
 	padding-block: var(--space-7) .75rem;
+	padding-inline: 3rem;
 }
 
 .resume__block {
