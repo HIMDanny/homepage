@@ -76,7 +76,7 @@ body {
 
 .resume__block {}
 
-.resume__block--underlined {
+.section-underlined {
 	padding-bottom: var(--space-4);
 	border-bottom: 3px solid var(--border-color);
 }
