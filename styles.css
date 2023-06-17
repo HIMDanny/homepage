@@ -97,6 +97,16 @@ body {
 	border-bottom: 3px solid var(--border-color);
 }
 
+.resume__link {
+	color: var(--primary-text-color);
+	text-decoration: none;
+	transition: color .2s;
+}
+
+.resume__link:hover {
+	color: var(--secondary-text-color);
+}
+
 .header {
 	display: flex;
 	flex-direction: column;
