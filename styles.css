@@ -107,6 +107,14 @@ body {
 	color: var(--secondary-text-color);
 }
 
+.badge {
+	background-color: var(--text-decoration-color);
+	color: var(--white-color);
+	width: fit-content;
+	padding: .25rem .75rem;
+	border-radius: .25rem;
+}
+
 .header {
 	display: flex;
 	flex-direction: column;
