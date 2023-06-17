@@ -88,7 +88,7 @@ body {
 	}
 
 	.resume-inner {
-	padding-inline: 3rem;
+		padding-inline: 3rem;
 	}
 }
 
@@ -138,6 +138,16 @@ body {
 
 	.header__image {
 		order: 1;
+	}
+}
+
+.about {
+	margin-top: var(--space-3);
+}
+
+@media (width > 670px) {
+	.about {
+		margin-top: -1.5rem;
 	}
 }
 
