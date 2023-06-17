@@ -115,6 +115,14 @@ body {
 	border-radius: .25rem;
 }
 
+.badge--scale {
+	transition: scale .2s ease-in;
+}
+
+.badge--scale:hover {
+	scale: 1.2;
+}
+
 .header {
 	display: flex;
 	flex-direction: column;
