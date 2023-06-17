@@ -190,6 +190,14 @@ body {
 	margin-bottom: var(--space-1);
 }
 
+.hard-skills__list {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-1);
+}
 
 @media screen and (max-width: 576px) {
 
