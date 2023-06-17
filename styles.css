@@ -74,8 +74,12 @@ body {
 	padding-inline: 3rem;
 }
 
-.resume__block {
+.resume__block {}
+
+.resume__block--underlined {
 	padding-bottom: var(--space-4);
+	border-bottom: 3px solid var(--border-color);
+}
 }
 
 .resume__block--underlined {
