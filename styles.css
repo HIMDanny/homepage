@@ -173,6 +173,11 @@ body {
 	margin-top: var(--space-4);
 }
 
+.aside {
+	display: grid;
+	gap: var(--space-2);
+}
+
 .contacts__content:not(:last-child) {
 	margin-bottom: var(--space-1);
 }
