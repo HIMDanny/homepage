@@ -151,6 +151,10 @@ body {
 	}
 }
 
+.body-wrapper {
+	margin-top: var(--space-4);
+}
+
 @media screen and (max-width: 576px) {
 
 	.main-info,
