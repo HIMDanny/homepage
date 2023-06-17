@@ -16,12 +16,14 @@ body {
 	--border-color: var(--text-decoration-color);
 	--text-decoration-color: #000;
 
+	/* 4px */
+	--space-1: .25rem;
 	/* 8px */
-	--space-1: .5rem;
+	--space-2: .5rem;
 	/* 12px */
-	--space-2: .75rem;
+	--space-3: .75rem;
 	/* 16px */
-	--space-3: 1rem;
+	--space-4: 1rem;
 	/* 30px */
 	--space-7: 1.875rem;
 }
