@@ -15,6 +15,15 @@ body {
 	--icon-color: #131313;
 	--border-color: var(--text-decoration-color);
 	--text-decoration-color: #000;
+
+	/* 8px */
+	--space-1: .5rem;
+	/* 12px */
+	--space-2: .75rem;
+	/* 16px */
+	--space-3: 1rem;
+	/* 30px */
+	--space-7: 1.875rem;
 }
 
 .container {
