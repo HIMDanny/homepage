@@ -190,7 +190,7 @@ body {
 	margin-top: var(--space-4);
 }
 
-.aside {
+.body__aside {
 	display: grid;
 	gap: var(--space-2);
 }
