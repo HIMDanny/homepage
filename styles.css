@@ -30,7 +30,7 @@ body {
 
 .container {
 	margin: 0 auto;
-	padding: 0 30px;
+	padding-inline: 2rem;
 	max-width: 900px;
 }
 
@@ -46,18 +46,45 @@ body {
 	justify-content: space-between;
 }
 
+.title {
+	font-weight: 600;
+	font-size: 1.25rem;
+}
+
+.title--filled {
+	background-color: var(--primary-text-color);
+	color: var(--white-color);
+	padding: var(--space-1) var(--space-2);
+}
+
+.title--underlined::after {
+	content: "";
+	margin-top: var(--space-1);
+	display: block;
+	height: 2px;
+	width: 5ch;
+	background-color: var(--text-decoration-color);
+}
+
 .resume {
 	margin: 50px auto;
 	border: 1px solid #f5f5f5;
 	box-shadow: 1px 1px 7px 7px #f5f5f5;
-	padding: 30px 0;
+	padding: var(--space-7);
 	max-width: 900px;
 }
 
+.resume-inner {
+	border: 3px solid var(--border-color);
+	padding-block: var(--space-7) .75rem;
+}
+
 .resume__block {
+	padding-bottom: var(--space-4);
+}
+
+.resume__block--underlined {
 	border-bottom: 3px solid var(--border-color);
-	padding-bottom: 30px;
-	margin-bottom: 15px;
 }
 
 @media screen and (max-width: 576px) {
