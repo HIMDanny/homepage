@@ -60,6 +60,10 @@ body {
 	background-color: var(--text-decoration-color);
 }
 
+.title--spacing-sm {
+	margin-bottom: var(--space-2);
+}
+
 .title--spacing-md {
 	margin-bottom: var(--space-4);
 }
