@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -10,9 +10,301 @@
       rel="stylesheet"
       href="styles.css"
     />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Résumé</title>
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+      <div class="resume">
+        <div class="resume-inner">
+          <section class="header">
+            <div class="header__content">
+              <h1 class="header__title">
+                Danylo
+                <br />
+                Bliznichenko
+              </h1>
+              <h2 class="header__subtitle title title--filled">
+                Frontend Developer
+              </h2>
+            </div>
+            <img
+              class="header__image"
+              src="/assets/avatar.jpg"
+              alt="Photo of me looking somewhere but not into a camera"
+            />
+          </section>
+          <section class="about section-underlined">
+            <h2 class="title title--underlined title--spacing-md">About Me</h2>
+            <p>
+              I am fond of creating beautiful, practical and user-friendly
+              interfaces and want to provide people with the best experience
+              they could have using the product.
+            </p>
+          </section>
+          <div class="body-wrapper">
+            <aside class="body__aside">
+              <section class="contacts">
+                <h2 class="title title--filled title--spacing-sm">Contact</h2>
+                <div class="contacts__content">
+                  <h3>Location</h3>
+                  <p>Ukraine, Kyiv</p>
+                </div>
+                <div class="contacts__content">
+                  <h3>Phone</h3>
+                  <a
+                    class="resume__link"
+                    href="tel:+380954549435"
+                  >
+                    +380954549435
+                  </a>
+                </div>
+                <div class="contacts__content">
+                  <h3>Email</h3>
+                  <a
+                    class="resume__link"
+                    href="mailto:danilbliz0201@gmail.com"
+                  >
+                    danilbliz0201@gmail.com
+                  </a>
+                </div>
+                <div class="contacts__content">
+                  <h3>Socials</h3>
+                  <a
+                    class="resume__link"
+                    href="https://t.me/HIMDanny"
+                    target="_blank"
+                  >
+                    Telegram
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  /
+                  <a
+                    class="resume__link"
+                    href="https://www.linkedin.com/in/daniel-bliznichenko-408076217?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BUDY3yaenTtaeLDxXZc1DKw%3D%3D"
+                    target="_blank"
+                  >
+                    LinkedIn
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  /
+                  <a
+                    class="resume__link"
+                    href="https://github.com/HIMDanny"
+                    target="_blank"
+                  >
+                    Github
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  /
+                  <a
+                    class="resume__link"
+                    href="https://gitlab.com/HIMDanny"
+                    target="_blank"
+                  >
+                    Gitlab
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
+              </section>
+              <section class="hard-skills">
+                <h2 class="title title--filled title--spacing-sm">
+                  Hard-skills
+                </h2>
+                <ul class="badge__list">
+                  <li class="badge badge--scale">React</li>
+                  <li class="badge badge--scale">Redux</li>
+                  <li class="badge badge--scale">React router</li>
+                  <li class="badge badge--scale">Axios</li>
+                  <li class="badge badge--scale">Fetch</li>
+                  <li class="badge badge--scale">Formik</li>
+                  <li class="badge badge--scale">Yup</li>
+                  <li class="badge badge--scale">Material UI</li>
+                  <li class="badge badge--scale">Git</li>
+                  <li class="badge badge--scale">Still here?</li>
+                  <li class="badge badge--scale">HTML</li>
+                  <li class="badge badge--scale">CSS</li>
+                  <li class="badge badge--scale">SCSS</li>
+                  <li class="badge badge--scale">JavaScript</li>
+                  <li class="badge badge--scale">PostgreSQL</li>
+                  <li class="badge badge--scale">MongoDB</li>
+                  <li class="badge badge--scale">Figma</li>
+                </ul>
+              </section>
+              <section class="language">
+                <h2 class="title title--filled title--spacing-sm">Language</h2>
+                <ul class="badge__list">
+                  <li class="badge badge--scale">English (C1)</li>
+                  <li class="badge badge--scale">Ukrainian (Native)</li>
+                  <li class="badge badge--scale">German (A1)</li>
+                  <li class="badge badge--scale">My own (When singing)</li>
+                  <li class="badge badge--scale">
+                    Japanese (100+ days in Duolingo!)
+                  </li>
+                </ul>
+              </section>
+              <section class="soft-skills">
+                <h2 class="title title--filled title--spacing-sm">
+                  Soft-skills
+                </h2>
+                <ul class="badge__list">
+                  <li class="badge badge--scale">Self-study</li>
+                  <li class="badge badge--scale">Critical thinking</li>
+                  <li class="badge badge--scale">Problem-solving</li>
+                  <li class="badge badge--scale">Adaptability</li>
+                </ul>
+              </section>
+            </aside>
+            <div class="body__divider"></div>
+            <div class="body__main">
+              <section class="timeline">
+                <h2 class="title title--underlined title--spacing-md">
+                  Timeline
+                </h2>
+                <div class="timeline__content">
+                  <div class="timeline__scope">
+                    <h3>Frontend path</h3>
+                    <h4 class="timeline__scope-year">2022-present</h4>
+                    <p class="timeline__scope-text">
+                      I entered this path to provide people with the best
+                      experience they could have using the products.
+                    </p>
+                  </div>
+                  <div class="timeline__scope">
+                    <h3>Participant of the art studio</h3>
+                    <h4 class="timeline__scope-year">2020-2022</h4>
+                    <p class="timeline__scope-text">
+                      Was a participant in theater performances
+                    </p>
+                  </div>
+                  <div class="timeline__scope">
+                    <h3>National Aviation University</h3>
+                    <h4 class="timeline__scope-year">2020-2024</h4>
+                    <p class="timeline__scope-text">
+                      Entered the university to major in software engineering.
+                    </p>
+                  </div>
+                  <div class="timeline__scope">
+                    <h3>Active school life</h3>
+                    <h4 class="timeline__scope-year">2016-2020</h4>
+                    <p class="timeline__scope-text">
+                      President of the Gymnasium, a singer at a vocal ensemble,
+                      a lot of activities, contests.
+                    </p>
+                  </div>
+                  <div class="timeline__scope">
+                    <h3>Java applets, are you kidding?</h3>
+                    <h4 class="timeline__scope-year">2016</h4>
+                    <p class="timeline__scope-text">
+                      My attempt to join the programming world.
+                    </p>
+                  </div>
+                  <div class="timeline__scope">
+                    <h3>Aikido</h3>
+                    <h4 class="timeline__scope-year">2007-2019</h4>
+                    <p class="timeline__scope-text">
+                      Wonderful time... Still planning to come back to training.
+                    </p>
+                  </div>
+                </div>
+              </section>
+              <section class="education">
+                <h2 class="title title--underlined title--spacing-md">
+                  Education
+                </h2>
+                <div class="education__content">
+                  <div class="education__item">
+                    <h3 class="education__item-title">
+                      <a
+                        href="https://www.udemy.com/certificate/UC-1c33dfcd-3255-401d-be8e-b3dfdaf7a0db/"
+                        target="_blank"
+                      >
+                        Understanding TypeScript
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                    </h3>
+                    <p class="education__item-description">
+                      Udemy course by Maximilian Schwarzmüller
+                    </p>
+                    <h4 class="education__item-period">15 hours</h4>
+                  </div>
+                  <div class="education__item">
+                    <h3 class="education__item-title">
+                      <a
+                        href="https://www.udemy.com/certificate/UC-cc5525af-6ea9-4a2e-9109-8abc8fdab6b7/"
+                        target="_blank"
+                      >
+                        React - The Complete Guide
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                    </h3>
+                    <p class="education__item-description">
+                      Udemy course by Maximilian Schwarzmüller
+                    </p>
+                    <h4 class="education__item-period">48.5 hours</h4>
+                  </div>
+                  <div class="education__item">
+                    <h3 class="education__item-title">
+                      <a
+                        href="https://osvita.diia.gov.ua/en/digigram-share/cuxoh89hnm78kxhd-sogtmdckby5e2p_"
+                        target="_blank"
+                      >
+                        Diia. Digigram
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                    </h3>
+                    <p class="education__item-description">Digital literacy</p>
+                    <h4 class="education__item-period">1 day</h4>
+                  </div>
+                  <div class="education__item">
+                    <h3 class="education__item-title">
+                      <a
+                        href="https://dan-it.com.ua/certificates/frontend/danylo-bliznichenko/"
+                        target="_blank"
+                      >
+                        DAN.IT Education
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                    </h3>
+                    <p class="education__item-description">
+                      Frontend Development
+                    </p>
+                    <h4 class="education__item-period">2022-2023</h4>
+                  </div>
+                  <div class="education__item">
+                    <h3 class="education__item-title">
+                      National Aviation University
+                    </h3>
+                    <p class="education__item-description">
+                      Software Engineering
+                    </p>
+                    <h4 class="education__item-period">2020-2024</h4>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
