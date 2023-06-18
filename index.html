@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -23,166 +23,284 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Résumé</title>
   </head>
   <body>
     <main>
       <div class="resume">
-        <div class="container">
-          <div class="resume__block">
-            <h1 class="contact-info__header">Bulka</h1>
-            <h3 class="contact-info__sub-header">Senior Hooman Manager</h3>
-
-            <div class="contact_info_container fh">
-              <div class="contact-info__block">
-                <a
-                  href=""
-                  rel="author"
-                  class="contact-info__item"
-                >
-                  <div class="contact-info__item-icon-wrapper">
-                    <svg
-                      class="contact-info__item-icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 384 512"
-                    >
-                      <path
-                        d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span>Lviv, Ukraine</span>
-                </a>
-              </div>
-
-              <div class="contact-info__block contact-info__block--center">
-                <img
-                  class="contact-info__avatar"
-                  src="assets/avatar.jpg"
-                  alt="Avatar"
-                />
-              </div>
-
-              <div class="contact-info__block">
-                <a
-                  href="https://ua.linkedin.com/company/binary-studio_241166"
-                  rel="author"
-                  class="contact-info__item"
-                >
-                  <div class="contact-info__item-icon-wrapper">
-                    <svg
-                      class="contact-info__item-icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 448 512"
-                    >
-                      <path
-                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
-                      ></path>
-                    </svg>
-                  </div>
-                  <span>binary-studio</span>
-                </a>
-              </div>
+        <div class="resume-inner">
+          <section class="header">
+            <div class="header__content">
+              <h1 class="header__title">
+                Danylo
+                <br />
+                Bliznichenko
+              </h1>
+              <h2 class="header__subtitle title title--filled">
+                Frontend Developer
+              </h2>
             </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="resume__block">
-            <div class="intro">
-              <div class="intro__icon-wrapper">
-                <svg
-                  class="intro__icon"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 512 512"
-                >
-                  <path
-                    d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
-                  ></path>
-                </svg>
-              </div>
-              <p class="intro_text">
-                Meow. I am a Binary Studio cat. Still got 7 lives. Work in IT,
-                Full Stack Evil, all I do is sleep and try to help out hoomans
-                with their projects whenever they need me.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="resume__block">
-            <div class="skills">
-              <h3 class="skills__header">Skills</h3>
-              <p class="skills__text">
-                Sleep, eat, more sleep, meow, mrrr, purr.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="resume__block">
-            <div class="main-info fh">
-              <div class="experiences">
-                <h3 class="experiences__header">Experience</h3>
-                <div class="experiences__company">
-                  <div class="experiences__company-header">
-                    <span class="experiences__company-header-durability">
-                      For whole my life
-                    </span>
-                    <h3 class="experiences__company-header-name">
-                      BinaryStudio
-                    </h3>
+            <img
+              class="header__image"
+              src="/assets/avatar.jpg"
+              alt="Photo of me looking somewhere but not into a camera"
+            />
+          </section>
+          <section class="about section-underlined">
+            <h2 class="title title--underlined title--spacing-md">About Me</h2>
+            <p>
+              I am fond of creating beautiful, practical and user-friendly
+              interfaces and want to provide people with the best experience
+              they could have using the product.
+            </p>
+          </section>
+          <div class="body-wrapper">
+            <aside class="body__aside">
+              <section class="contacts">
+                <h2 class="title title--filled title--spacing-sm">Contact</h2>
+                <div class="contacts__content">
+                  <h3>Location</h3>
+                  <p>Ukraine, Kyiv</p>
+                </div>
+                <div class="contacts__content">
+                  <h3>Phone</h3>
+                  <a
+                    class="resume__link"
+                    href="tel:+380954549435"
+                  >
+                    +380954549435
+                  </a>
+                </div>
+                <div class="contacts__content">
+                  <h3>Email</h3>
+                  <a
+                    class="resume__link"
+                    href="mailto:danilbliz0201@gmail.com"
+                  >
+                    danilbliz0201@gmail.com
+                  </a>
+                </div>
+                <div class="contacts__content">
+                  <h3>Socials</h3>
+                  <a
+                    class="resume__link"
+                    href="https://t.me/HIMDanny"
+                    target="_blank"
+                  >
+                    Telegram
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  /
+                  <a
+                    class="resume__link"
+                    href="https://www.linkedin.com/in/daniel-bliznichenko-408076217?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BUDY3yaenTtaeLDxXZc1DKw%3D%3D"
+                    target="_blank"
+                  >
+                    LinkedIn
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  /
+                  <a
+                    class="resume__link"
+                    href="https://github.com/HIMDanny"
+                    target="_blank"
+                  >
+                    Github
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                  /
+                  <a
+                    class="resume__link"
+                    href="https://gitlab.com/HIMDanny"
+                    target="_blank"
+                  >
+                    Gitlab
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
+              </section>
+              <section class="hard-skills">
+                <h2 class="title title--filled title--spacing-sm">
+                  Hard-skills
+                </h2>
+                <ul class="badge__list">
+                  <li class="badge badge--scale">React</li>
+                  <li class="badge badge--scale">Redux</li>
+                  <li class="badge badge--scale">React router</li>
+                  <li class="badge badge--scale">Axios</li>
+                  <li class="badge badge--scale">Fetch</li>
+                  <li class="badge badge--scale">Formik</li>
+                  <li class="badge badge--scale">Yup</li>
+                  <li class="badge badge--scale">Material UI</li>
+                  <li class="badge badge--scale">Git</li>
+                  <li class="badge badge--scale">Still here?</li>
+                  <li class="badge badge--scale">HTML</li>
+                  <li class="badge badge--scale">CSS</li>
+                  <li class="badge badge--scale">SCSS</li>
+                  <li class="badge badge--scale">JavaScript</li>
+                  <li class="badge badge--scale">PostgreSQL</li>
+                  <li class="badge badge--scale">MongoDB</li>
+                  <li class="badge badge--scale">Figma</li>
+                </ul>
+              </section>
+              <section class="language">
+                <h2 class="title title--filled title--spacing-sm">Language</h2>
+                <ul class="badge__list">
+                  <li class="badge badge--scale">English (C1)</li>
+                  <li class="badge badge--scale">Ukrainian (Native)</li>
+                  <li class="badge badge--scale">German (A1)</li>
+                  <li class="badge badge--scale">My own (When singing)</li>
+                  <li class="badge badge--scale">
+                    Japanese (100+ days in Duolingo!)
+                  </li>
+                </ul>
+              </section>
+              <section class="soft-skills">
+                <h2 class="title title--filled title--spacing-sm">
+                  Soft-skills
+                </h2>
+                <ul class="badge__list">
+                  <li class="badge badge--scale">Self-study</li>
+                  <li class="badge badge--scale">Critical thinking</li>
+                  <li class="badge badge--scale">Problem-solving</li>
+                  <li class="badge badge--scale">Adaptability</li>
+                </ul>
+              </section>
+            </aside>
+            <div class="body__divider"></div>
+            <div class="body__main">
+              <section class="timeline">
+                <h2 class="title title--underlined title--spacing-md">
+                  Timeline
+                </h2>
+                <div class="timeline__content">
+                  <div class="timeline__scope">
+                    <h3>Frontend path</h3>
+                    <h4 class="timeline__scope-year">2022-present</h4>
+                    <p class="timeline__scope-text">
+                      I entered this path to provide people with the best
+                      experience they could have using the products.
+                    </p>
                   </div>
-
-                  <div class="experiences__company-project">
-                    <span class="experiences__company-project-role">
-                      Binary Studio Cat
-                    </span>
-                    <h3 class="experiences__company-project-name">
-                      Hooman project
-                    </h3>
-                    <ul class="experiences__company-project-responsibilities">
-                      <li>Supported hoomans</li>
-                      <li>Slept all the time</li>
-                      <li>Lied on the keyboard</li>
-                      <li>Watched my hoomans working</li>
-                    </ul>
+                  <div class="timeline__scope">
+                    <h3>Participant of the art studio</h3>
+                    <h4 class="timeline__scope-year">2020-2022</h4>
+                    <p class="timeline__scope-text">
+                      Was a participant in theater performances
+                    </p>
+                  </div>
+                  <div class="timeline__scope">
+                    <h3>National Aviation University</h3>
+                    <h4 class="timeline__scope-year">2020-2024</h4>
+                    <p class="timeline__scope-text">
+                      Entered the university to major in software engineering.
+                    </p>
+                  </div>
+                  <div class="timeline__scope">
+                    <h3>Active school life</h3>
+                    <h4 class="timeline__scope-year">2016-2020</h4>
+                    <p class="timeline__scope-text">
+                      President of the Gymnasium, a singer at a vocal ensemble,
+                      a lot of activities, contests.
+                    </p>
+                  </div>
+                  <div class="timeline__scope">
+                    <h3>Java applets, are you kidding?</h3>
+                    <h4 class="timeline__scope-year">2016</h4>
+                    <p class="timeline__scope-text">
+                      My attempt to join the programming world.
+                    </p>
+                  </div>
+                  <div class="timeline__scope">
+                    <h3>Aikido</h3>
+                    <h4 class="timeline__scope-year">2007-2019</h4>
+                    <p class="timeline__scope-text">
+                      Wonderful time... Still planning to come back to training.
+                    </p>
                   </div>
                 </div>
-              </div>
-
-              <div class="additional-info fv">
-                <div class="additional-info fv">
-                  <div class="additional-info__education">
-                    <h3 class="additional-info__education-header">Education</h3>
-                    <div class="additional-info__education-university">
-                      <span
-                        class="additional-info__education-university-durability"
+              </section>
+              <section class="education">
+                <h2 class="title title--underlined title--spacing-md">
+                  Education
+                </h2>
+                <div class="education__content">
+                  <div class="education__item">
+                    <h3 class="education__item-title">
+                      <a
+                        href="https://www.udemy.com/certificate/UC-1c33dfcd-3255-401d-be8e-b3dfdaf7a0db/"
+                        target="_blank"
                       >
-                        2021
-                      </span>
-                      <h3
-                        class="additional-info__education-university-speciality"
-                      >
-                        Cat track
-                      </h3>
-                      <p class="additional-info__education-university-name">
-                        Binary Studio Academy
-                      </p>
-                    </div>
+                        Understanding TypeScript
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                    </h3>
+                    <p class="education__item-description">
+                      Udemy course by Maximilian Schwarzmüller
+                    </p>
+                    <h4 class="education__item-period">15 hours</h4>
                   </div>
-
-                  <div class="additional-info__languages">
-                    <h3 class="additional-info__languages-header">Languages</h3>
-                    <p class="additional-info__languages-item">Meow dialect</p>
-                    <p class="additional-info__languages-item">
-                      Ukrainian (understand)
+                  <div class="education__item">
+                    <h3 class="education__item-title">
+                      <a
+                        href="https://www.udemy.com/certificate/UC-cc5525af-6ea9-4a2e-9109-8abc8fdab6b7/"
+                        target="_blank"
+                      >
+                        React - The Complete Guide
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                    </h3>
+                    <p class="education__item-description">
+                      Udemy course by Maximilian Schwarzmüller
                     </p>
-                    <p class="additional-info__languages-item">
-                      English (don't understand)
+                    <h4 class="education__item-period">48.5 hours</h4>
+                  </div>
+                  <div class="education__item">
+                    <h3 class="education__item-title">
+                      <a
+                        href="https://osvita.diia.gov.ua/en/digigram-share/cuxoh89hnm78kxhd-sogtmdckby5e2p_"
+                        target="_blank"
+                      >
+                        Diia. Digigram
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                    </h3>
+                    <p class="education__item-description">Digital literacy</p>
+                    <h4 class="education__item-period">1 day</h4>
+                  </div>
+                  <div class="education__item">
+                    <h3 class="education__item-title">
+                      <a
+                        href="https://dan-it.com.ua/certificates/frontend/danylo-bliznichenko/"
+                        target="_blank"
+                      >
+                        DAN.IT Education
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                      </a>
+                    </h3>
+                    <p class="education__item-description">
+                      Frontend Development
                     </p>
+                    <h4 class="education__item-period">2022-2023</h4>
+                  </div>
+                  <div class="education__item">
+                    <h3 class="education__item-title">
+                      National Aviation University
+                    </h3>
+                    <p class="education__item-description">
+                      Software Engineering
+                    </p>
+                    <h4 class="education__item-period">2020-2024</h4>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
           </div>
         </div>
