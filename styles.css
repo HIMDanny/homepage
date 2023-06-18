@@ -122,6 +122,7 @@ body {
 }
 
 .badge--scale:hover {
+	/* yes! It can be written without using transform property */
 	scale: 1.2;
 }
 
