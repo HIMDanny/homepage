@@ -188,6 +188,10 @@ body {
 	gap: var(--space-4);
 }
 
+.body__divider {
+	display: none;
+}
+
 .contacts__content:not(:last-child) {
 	margin-bottom: var(--space-1);
 }
