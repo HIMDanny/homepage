@@ -176,13 +176,15 @@ body {
 }
 
 .body__aside {
-	display: grid;
+	display: flex;
+	flex-direction: column;
 	gap: var(--space-4);
 }
 
 .body__main {
 	margin-top: var(--space-4);
-	display: grid;
+	display: flex;
+	flex-direction: column;
 	gap: var(--space-4);
 }
 
