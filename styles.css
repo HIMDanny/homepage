@@ -107,6 +107,10 @@ body {
 	color: var(--secondary-text-color);
 }
 
+.resume__link>i {
+	font-size: .75rem;
+}
+
 .badge {
 	background-color: var(--text-decoration-color);
 	color: var(--white-color);
