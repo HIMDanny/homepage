@@ -188,7 +188,8 @@ body {
 	margin-bottom: var(--space-1);
 }
 
-.timeline__content {
+.timeline__content,
+.education__content {
 	display: grid;
 	gap: var(--space-2);
 }
@@ -198,6 +199,29 @@ body {
 }
 
 .timeline__scope-year {
+	font-weight: 600;
+}
+
+.education__item-title a {
+	color: var(--primary-text-color);
+	text-decoration: none;
+
+	transition: color .2s;
+}
+
+.education__item-title a:hover {
+	color: var(--secondary-text-color);
+}
+
+.education__item-title i {
+	font-size: 1rem;
+}
+
+.education__item-description {
+	color: var(--secondary-text-color);
+}
+
+.education__item-period {
 	font-weight: 600;
 }
 
