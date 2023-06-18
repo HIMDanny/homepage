@@ -182,6 +182,8 @@ body {
 
 .body__main {
 	margin-top: var(--space-4);
+	display: grid;
+	gap: var(--space-4);
 }
 
 .contacts__content:not(:last-child) {
