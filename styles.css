@@ -250,6 +250,25 @@ body {
 	}
 }
 
+@media (width > 768px) {
+	.body-wrapper {
+		display: grid;
+		grid-template-columns: 1fr auto auto;
+		gap: var(--space-7);
+	}
+
+	.body__divider {
+		display: block;
+		height: 100%;
+		width: 3px;
+		background-color: var(--text-decoration-color);
+	}
+
+	.body__main {
+		margin-top: 0;
+	}
+}
+
 @media screen and (max-width: 576px) {
 
 	.main-info,
